@@ -1,0 +1,45 @@
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Libraries
+**.DS_Store
+node_modules
+/dist
+
+# Public directory
+/public/hot
+/public/storage
+/public/css/app.css
+/storage/*.key
+/public/fonts
+/public/images
+/public/js
+/public/css/app.css
+/public/mix-manifest.json
+/packages
+/public/files/
+public/js/app.js
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+cypress.json
+cypress/videos
+Homestead.json
+Homestead.yaml
+yarn.lock
+workspace.code-workspace

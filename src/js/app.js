@@ -41,7 +41,9 @@ import {
     TabsPlugin,
     BadgePlugin,
     TooltipPlugin,
-    FormCheckboxPlugin
+    FormCheckboxPlugin,
+    LayoutPlugin,
+    ImagePlugin
 } from 'bootstrap-vue'
 
 Vue.use(CollapsePlugin)
@@ -56,6 +58,8 @@ Vue.use(TabsPlugin)
 Vue.use(BadgePlugin)
 Vue.use(TooltipPlugin)
 Vue.use(FormCheckboxPlugin)
+Vue.use(LayoutPlugin)
+Vue.use(ImagePlugin)
 // Optionally install the BootstrapVue icon components plugin
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 

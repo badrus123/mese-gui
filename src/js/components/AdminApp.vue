@@ -1,7 +1,7 @@
 <template>
     <div class="page-container">
         <admin-navbar></admin-navbar>
-        <div class="main-content" >
+        <div class="main-content">
             <transition name="slide-fade">
                 <router-view></router-view>
             </transition>
@@ -11,12 +11,8 @@
 
 <script>
 export default {
-    mounted(){
-        
-    }
-}
+    mounted() {}
+};
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>

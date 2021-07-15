@@ -1,12 +1,21 @@
 <template>
-    <div class="div-flex">
-        <div>
-            <span :class="small==='big'?'title':'title2'">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-            <p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis mollit velit esse cillum anim id est laborum.</p>
-            <b-button block size="sm" variant="primary" class="button-install mt-4">install plug-in</b-button>
-        </div>
-        <img src="/images/mobile.png" class="pl-4 ml-4 images">
-    </div>
+    <b-container fluid>
+        <!-- <div class="div-flex"> -->
+            <b-row  align-h="between" align-v="center">
+                 <b-col cols="12" class="d-md-none">
+                    <b-img src="/images/mobile.png" fluid-grow></b-img>
+                </b-col>
+                <b-col cols="12" sm="6" md="8">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis mollit velit esse cillum anim id est laborum.</p>
+                    <b-button block size="sm" variant="primary" class="button-install mt-4">install plug-in</b-button>
+                </b-col>
+                <b-col cols="12" sm="6" md="4" class="d-none d-md-block">
+                    <b-img src="/images/mobile.png" fluid-grow></b-img>
+                </b-col>
+            </b-row>
+        <!-- </div> -->
+    </b-container>
 </template>
 
 <script>
